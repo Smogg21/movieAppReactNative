@@ -1,3 +1,16 @@
+#
+
+
+##Dev
+
+1. Clonar el proyecto
+2. Instalar dependencias `npm install`
+3. Clonar el archivo .env.template a .env y configurar las variables de entorno
+4. Ejecutar el proyecto `npx react-native run android`
+4. Ejecutar el proyecto `npm run start:ios` configurar el simulador en IOS
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
