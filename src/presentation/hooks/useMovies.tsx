@@ -17,5 +17,8 @@ export const useMovies = () => {
       movieDBFetcher,
     );
   };
-  return {};
+  return {
+    isLoading,
+    nowPlaying,
+  };
 };

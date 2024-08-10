@@ -5,5 +5,5 @@ export interface Movie {
   releaseDate: Date;
   rating: number;
   poster: string;
-  backgroop: string;
+  backdrop: string;
 }
