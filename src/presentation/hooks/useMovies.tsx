@@ -7,7 +7,7 @@ import {movieDBFetcher} from '../../config/adapters/movieDB.adapter';
 export const useMovies = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [nowPlaying, setNowPlaying] = useState<Movie[]>([]);
-  const [pupular, setPopular] = useState<Movie[]>([]);
+  const [popular, setPopular] = useState<Movie[]>([]);
   const [topRated, setTopRated] = useState<Movie[]>([]);
   const [upcoming, setUpcoming] = useState<Movie[]>([]);
 
@@ -37,7 +37,7 @@ export const useMovies = () => {
   return {
     isLoading,
     nowPlaying,
-    pupular,
+    popular,
     topRated,
     upcoming,
   };
