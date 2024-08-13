@@ -1,6 +1,5 @@
 import {StackScreenProps} from '@react-navigation/stack';
 import React from 'react';
-import {Text} from 'react-native';
 import {RootStackParams} from '../../navigation/Navigation';
 import {useMovie} from '../../hooks/useMovie';
 import {MovieHeader} from '../../components/movie/MovieHeadet';
