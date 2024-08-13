@@ -1,5 +1,8 @@
 #
 
+Este proyecto consume la api de TheMovieDB para mostrar la información de diferentes películas.
+![Diseño](images/image.png)
+![Diseño2](images/image2.png)
 
 ##Dev
 
@@ -7,15 +10,13 @@
 2. Instalar dependencias `npm install`
 3. Clonar el archivo .env.template a .env y configurar las variables de entorno
 4. Ejecutar el proyecto `npx react-native run android`
-4. Ejecutar el proyecto `npm run start:ios` configurar el simulador en IOS
-
-
+5. Ejecutar el proyecto `npm run start:ios` configurar el simulador en IOS
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
