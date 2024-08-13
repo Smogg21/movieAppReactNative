@@ -12,7 +12,7 @@ interface Props extends StackScreenProps<RootStackParams, 'Details'> {}
 export const DetailsScreen = ({route}: Props) => {
   const {movieId} = route.params;
   // const {movieId} = useRoute().params;
-  const {isLoading, movie} = useMovie(movieId);
+  const {isLoading, movie, cast = []} = useMovie(movieId);
 
   if (isLoading) {
     return <Text>Loading</Text>;
@@ -25,7 +25,7 @@ export const DetailsScreen = ({route}: Props) => {
         title={movie!.title}
         poster={movie!.poster}
       />
-      <MovieDetails movie={movie!} />
+      <MovieDetails movie={movie!} cast={cast} />
     </ScrollView>
   );
 };
