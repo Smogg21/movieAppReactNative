@@ -1,3 +1,4 @@
+/* eslint-disable react/self-closing-comp */
 import React from 'react';
 import {
   Image,
@@ -7,7 +8,6 @@ import {
   useWindowDimensions,
   View,
 } from 'react-native';
-import {FullMovie} from '../../../core/entities/movie.entity';
 import {useNavigation} from '@react-navigation/native';
 
 interface Props {
