@@ -3,7 +3,7 @@
 Este proyecto consume la api de TheMovieDB para mostrar la información de diferentes películas.
 ![Diseño](images/image.png)
 ![Diseño2](images/image2.png)
-
+[Haz click aquí para descargar el APK e instalarlo en tu Android](https://github.com/Smogg21/movieAppReactNative/releases/download/1.0.0/app-release.apk)
 ##Dev
 
 1. Clonar el proyecto
